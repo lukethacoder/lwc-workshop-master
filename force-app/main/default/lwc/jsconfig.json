@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "paths": {
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/similarProperties": [
+                "similarProperties/similarProperties.js"
+            ],
+            "c/similarProperty": [
+                "similarProperty/similarProperty.js"
+            ],
+            "c/brokerCard": [
+                "brokerCard/brokerCard.js"
+            ],
+            "c/formBuilder": [
+                "formBuilder/formBuilder.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
